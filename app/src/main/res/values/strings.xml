@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Milestone 1</string>
+    <string name="recycler_view_btn">Recycler View</string>
+    <string name="glide_btn">glide</string>
+</resources>
