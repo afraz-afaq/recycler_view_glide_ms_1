@@ -105,6 +105,8 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
 
         if(item.getmImage() == null)
             holder.mImageview.setImageResource(R.drawable.ic_face_black_24dp);
+        else
+            holder.mImageview.setImageBitmap(Helper.decodeBimap(item.getmImage()));
 
     }
 
